@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React, { Component, cloneElement } from 'react'
 
  export const ReactTokyHOC = WrappedComponent => {
    return class extends Component{
@@ -14,10 +14,12 @@ import React, { Component } from 'react'
 
 export class ReactToky extends Component{
   render(){
-    return this.props.children
+    const { children } = this.props
+    const newProps = {name:'Dennis'}    
+    return (<div>{cloneElement(children, newProps)}</div>)
   }
 }
 
 export class Voice extends Component{
-  
+
 }

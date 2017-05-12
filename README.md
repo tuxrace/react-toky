@@ -1,5 +1,5 @@
 # react-toky
-React voice recognition component that works as a component or a higher order component
+>React voice recognition component that works as a component or a higher order component
 
 ### Usage as a component
     import { ReactToky } from 'react-toky'

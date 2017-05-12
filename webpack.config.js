@@ -18,5 +18,5 @@ module.exports = {
       minChunks: 2
     })
   ],
-  devtool:'#source-map'
+  devtool: '#source-map'
 }
