@@ -17,3 +17,7 @@ export class ReactToky extends Component{
     return this.props.children
   }
 }
+
+export class Voice extends Component{
+  
+}
